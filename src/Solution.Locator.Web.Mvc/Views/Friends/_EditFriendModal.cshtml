@@ -1,0 +1,45 @@
+﻿@using Solution.Locator.Web.Models.Common.Modals
+@model Solution.Locator.Web.Models.Friends.EditFriendModalViewModel
+@{
+    Layout = null;
+}
+@Html.Partial("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel("Editar informações do Amigo")))
+
+<div class="modal-body">
+    <form name="FriendEditForm" role="form" novalidate class="form-validation">
+        <input type="hidden" name="Id" value="@Model.Friend.Id" />
+        <ul class="nav nav-tabs tab-nav-right" role="tablist">
+            <li role="presentation" class="active"><a href="#edit-Friend-details" data-toggle="tab">Detalhe</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane animated fadeIn active" id="edit-Friend-details">
+
+                <div class="row clearfix" style="margin-top:10px;">
+                    <div class="col-sm-12">
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input id="Friendname" type="text" name="Name" value="@Model.Friend.Name" required maxlength="120" minlength="2" class="validate form-control">
+                                <label for="Friendname" class="form-label">Nome</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="col-sm-6">
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input id="name" type="text" name="NickName" value="@Model.Friend.NickName" required maxlength="32" class="validate form-control">
+                                <label for="name" class="form-label">Apelido</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@Html.Partial("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+
+<script src="~/view-resources/Views/Friends/_EditFriendModal.js" asp-append-version="true"></script>
