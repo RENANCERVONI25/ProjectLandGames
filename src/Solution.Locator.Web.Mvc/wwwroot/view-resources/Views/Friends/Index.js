@@ -19,17 +19,17 @@
             deleteFriend(friendId, name);
         });
 
-        $('.edit-atacched-games').click(function (e) {
+        $('.edit-attached-games').click(function (e) {
 
             var friendId = $(this).attr("data-friend-id");
             e.preventDefault();
             $.ajax({
-                url: abp.appPath + 'Friends/AtacchedGamesModal?friendId=' + friendId,
+                url: abp.appPath + 'Friends/AttachedGamesModal?friendId=' + friendId,
                 type: 'POST',
                 contentType: 'application/html',
                 success: function (content) {
 
-                    $('#AtacchedGamesModal div.modal-content').html(content);
+                    $('#AttachedGamesModal div.modal-content').html(content);
                 },
                 error: function (e) { }
             });
@@ -78,7 +78,7 @@
             location.reload(true); //reload page to see new user!
         }
 
-        function deleteUser(userId, userName) {
+        function deleteFriend(userId, userName) {
             abp.message.confirm(
                 "Deseja Deletar '" + userName + "'?",
                 function (isConfirmed) {

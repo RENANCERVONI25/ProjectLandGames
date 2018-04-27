@@ -65,7 +65,12 @@ namespace Solution.Locator.Friends
 
         public override async Task Delete(EntityDto<int> input)
         {
-            var entity = _friendRepository.Get(input.Id);
+            var query = _friendRepository.GetAll();
+
+            var entity = query.Include(u => u.Games).Where(i => i.Id == input.Id).FirstOrDefault();
+
+            if (entity.Games != null && entity.Games.Any())
+                entity.Games = null;
 
             await _friendRepository.DeleteAsync(entity);
         }

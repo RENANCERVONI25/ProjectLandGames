@@ -61,7 +61,7 @@
             location.reload(true); //reload page to see new user!
         }
 
-        function deleteUser(gameId, name) {
+        function deleteGame(gameId, name) {
             abp.message.confirm(
                 "Deseja Deletar '" + name + "'?",
                 function (isConfirmed) {

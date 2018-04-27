@@ -34,7 +34,7 @@ namespace Solution.Locator.Web.Controllers
             return View(model);
         }
 
-        public async Task<ActionResult> AtacchedGamesModal(int friendId)
+        public async Task<ActionResult> AttachedGamesModal(int friendId)
         {
             var friend = await _friendAppService.Get(new EntityDto<int>(friendId));
             var gamesAvailable = await _gameAppService.GetGamesAvailable();
@@ -46,7 +46,7 @@ namespace Solution.Locator.Web.Controllers
                 GamesBorrowed = gamesBorrowed,
             };
 
-            return View("_AtacchedGamesModal", model);
+            return View("_AttachedGamesModal", model);
         }
 
         public async Task<ActionResult> EditFriendModal(int friendId)
