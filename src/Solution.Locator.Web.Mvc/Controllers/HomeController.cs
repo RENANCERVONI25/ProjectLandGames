@@ -6,6 +6,7 @@ using Solution.Locator.Games;
 using System.Threading.Tasks;
 using System.Linq;
 using Solution.Locator.Home.Dto;
+using System.Collections.Generic;
 
 namespace Solution.Locator.Web.Controllers
 {
@@ -23,12 +24,19 @@ namespace Solution.Locator.Web.Controllers
 
         public async Task<ActionResult> Index()
         {
-            var friendsCount = (await _friendAppService.GetAll()).Items.Count;
+            var friends = (await _friendAppService.GetAll()).Items;
             var games = (await _gameAppService.GetAll()).Items;
-            var gamesBorrowed = games.Where(x => x.IdFriend != null && x.IdFriend != 0).Count();
+            var gamesBorrowed = games.Where(x => x.IdFriend != null && x.IdFriend != 0).ToList();
             var gamesAvailableCount = games.Where(x => x.IdFriend == null || x.IdFriend == 0).Count();
 
-            return View(new HomeDetails() { Friends = friendsCount, GamesAvailable = gamesAvailableCount, GamesBorrowed = gamesBorrowed });
+
+            var friendsGames = friends.Where(x => x.Games.Any());
+
+            Dictionary<string, string> dictionarygamesBorrew = new Dictionary<string, string>();
+            foreach (var gameBorrowed in gamesBorrowed)
+                dictionarygamesBorrew.Add(friends.Where(u => u.Id == gameBorrowed.IdFriend).FirstOrDefault().Name, gameBorrowed.Name);
+
+            return View(new HomeDetails() { Friends = friends.Count, GamesAvailable = gamesAvailableCount, GamesBorrowed = dictionarygamesBorrew });
         }
     }
 }

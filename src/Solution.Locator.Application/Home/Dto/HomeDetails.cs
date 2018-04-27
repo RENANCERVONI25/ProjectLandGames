@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Solution.Locator.Games.Dto;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,7 +9,7 @@ namespace Solution.Locator.Home.Dto
     {
         public int GamesAvailable { get; set; }
 
-        public int GamesBorrowed { get; set; }
+        public Dictionary<string , string> GamesBorrowed { get; set; }
 
         public int Friends { get; set; }
     }

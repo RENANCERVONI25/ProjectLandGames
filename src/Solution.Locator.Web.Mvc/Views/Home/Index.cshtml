@@ -7,7 +7,7 @@
     <link href="~/lib/morris.js/morris.css" rel="stylesheet" asp-append-version="true" />
 }
 @section scripts
-{
+    {
     <environment names="Development">
         <script src="~/lib/jquery-countTo/jquery.countTo.js" asp-append-version="true"></script>
         <script src="~/lib/raphael/raphael.js" asp-append-version="true"></script>
@@ -21,7 +21,6 @@
         <script src="~/lib/jquery-sparkline/dist/jquery.sparkline.js" asp-append-version="true"></script>
         <script src="~/view-resources/Views/Home/Index.js" asp-append-version="true"></script>
     </environment>
-
     <environment names="Staging,Production">
         <script src="~/view-resources/Views/_Bundles/home-index.min.js" asp-append-version="true"></script>
     </environment>
@@ -59,11 +58,48 @@
             </div>
             <div class="content">
                 <div class="text">Jogos Emprestados</div>
-                <div class="number count-to" data-from="0" data-to="@Model.GamesBorrowed" data-speed="1000" data-fresh-interval="20"></div>
+                <div class="number count-to" data-from="0" data-to="@Model.GamesBorrowed.Count" data-speed="1000" data-fresh-interval="20"></div>
             </div>
         </div>
     </div>
-
 </div>
+@if (Model.GamesBorrowed.Count > 0)
+{
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        Jogos Emprestados
+                    </h2>
+                </div>
+                <div class="body table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nome do Amigo</th>
+                                <th>Jogo Empresado</th>
 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var game in Model.GamesBorrowed)
+                            {
+                                <tr>
+                                    <td>@game.Key</td>
+                                    <td>@game.Value</td>
+                                    <td width="690px"></td>
 
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ }
+else
+{ <span>Nenhum Jogo foi emprestado.</span>
+}
