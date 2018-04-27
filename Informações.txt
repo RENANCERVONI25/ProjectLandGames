@@ -1,0 +1,5 @@
+Para entrar como Administrador:
+Usuário: admin
+Senha: 123qwe
+
+Estou usando um framework com DDD, entity framework, bootstrap, .Net Core, design patterns, Framework de IOC e entre outros.
