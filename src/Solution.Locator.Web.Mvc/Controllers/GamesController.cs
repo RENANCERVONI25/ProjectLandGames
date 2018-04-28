@@ -37,6 +37,7 @@ namespace Solution.Locator.Web.Controllers
             return View(model);
         }
 
+        
         public async Task<ActionResult> EditGameModal(int gameId)
         {
             var game = await _gameAppService.Get(new EntityDto<int>(gameId));
