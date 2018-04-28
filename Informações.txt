@@ -1,5 +1,7 @@
 Para entrar como Administrador:
-Usu�rio: admin
+Usuário: admin
 Senha: 123qwe
 
-Estou usando um framework com DDD, entity framework, bootstrap, .Net Core, design patterns, Framework de IOC e entre outros.
+Estou usando um framework com DDD, entity framework, bootstrap, .Net Core, design patterns, Framework de IOC e entre outros. Eu iria usar uma autenticação de token via mvc e web api sendo assim as minhas web api teriam que ser solicitadas via token pelo client, mas decidi não usar porque não daria tempo para completar  o teste então não usei web api e somente mvc com autenticação nos controllers  e sem usar microservices.
+
+Na home terá uma tabela de amigos e os livros que foram emprestados.
