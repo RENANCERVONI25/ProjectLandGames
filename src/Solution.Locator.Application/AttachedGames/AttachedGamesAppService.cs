@@ -32,15 +32,24 @@ namespace Solution.Locator.AttachedGames
             if (friendEntity.Games != null && friendEntity.Games.Any())
                 friendEntity.Games.Clear();
 
-            foreach (var game in input.Games)
-            {
-                var gameEntity = _gameRepository.Get(game);
-                gameEntity.IdFriend = input.IdFriend;
-                gameEntity.Friend = friendEntity;
-                friendEntity.Games.Add(gameEntity);
-            }
+            input.Games.ForEach(x =>{
+                SetGames(input, friendEntity, x);
+            });
+
+            //foreach (var game in input.Games)
+            //{
+            //    SetGames(input, friendEntity, game);
+            //}
 
             _friendRepository.Update(friendEntity);
+        }
+
+        private void SetGames(AttachedGamesDto input, Core.Entitities.Friend friendEntity, int game)
+        {
+            var gameEntity = _gameRepository.Get(game);
+            gameEntity.IdFriend = input.IdFriend;
+            gameEntity.Friend = friendEntity;
+            friendEntity.Games.Add(gameEntity);
         }
     }
 }
