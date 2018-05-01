@@ -7,6 +7,6 @@
         public const string Friends = "Amigos";
         public const string Users = "Usuários";
         public const string Games = "Games";
-        //public const string Roles = "Roles"; 
+        public const string Roles = "Roles";
     }
 }

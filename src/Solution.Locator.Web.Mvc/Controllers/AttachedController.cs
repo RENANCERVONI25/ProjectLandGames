@@ -11,7 +11,7 @@ using Solution.Locator.AttachedGames;
 
 namespace Solution.Locator.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Pages_Roles)]
     public class AttachedController : LocatorControllerBase
     {
         private readonly IAttachedAppService _attachedAppService;

@@ -30,7 +30,7 @@
     <text name="Games" value="Jogos" />
     <text name="FriendName" value="Nome" />
     <text name="NickName" value="Apelido" />
-    
+
     <text name="Actions" value="Ações" />
     <text name="Tenants" value="Tenants" />
     <text name="Game name" value="Nome do Jogo" />
@@ -57,6 +57,6 @@
     <text name="TenantSelection" value="Seleção de Tenant" />
     <text name="TenantSelection_Detail" value="Por favor selecione um dos seguintes tenants." />
     <text name="Logout" value="Sair" />
-
+    <text name="Roles" value="Roles" />
   </texts>
 </localizationDictionary>

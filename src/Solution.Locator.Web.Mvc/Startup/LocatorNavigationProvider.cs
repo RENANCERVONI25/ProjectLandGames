@@ -30,11 +30,20 @@ namespace Solution.Locator.Web.Startup
                     )
                 ).AddItem(
                     new MenuItemDefinition(
+                        PageNames.Roles,
+                        L("Roles"),
+                        url: "Roles",
+                        icon: "people",
+                        requiredPermissionName: PermissionNames.Pages_Roles
+                    )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
                         PageNames.Friends,
                         L("Friends"),
                         url: "Friends",
                         icon: "people",
-                        requiredPermissionName: PermissionNames.Pages_Users
+                        requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 ).AddItem(
                     new MenuItemDefinition(
@@ -42,7 +51,7 @@ namespace Solution.Locator.Web.Startup
                         L("Games"),
                         url: "Games",
                         icon: "people",
-                        requiredPermissionName: PermissionNames.Pages_Users
+                        requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 );
         }

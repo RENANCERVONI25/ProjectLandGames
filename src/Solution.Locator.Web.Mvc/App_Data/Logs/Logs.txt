@@ -2631,3 +2631,626 @@ INFO  2018-04-28 09:23:31,867 [20   ] .Internal.Transports.WebSocketsTransport -
 INFO  2018-04-28 09:23:32,030 [33   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
 DEBUG 2018-04-28 09:23:32,032 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"df531118-9dcf-4f0e-aab1-913315cbf3c1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-04-28T09:23:32.0324936-03:00","Properties":{}}
 DEBUG 2018-04-28 09:23:32,032 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: df531118-9dcf-4f0e-aab1-913315cbf3c1
+DEBUG 2018-05-01 08:37:06,399 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-01 08:37:06,772 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-01 08:37:06,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.Web.Startup.LocatorWebMvcModule, Solution.Locator.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorWebCoreModule, Solution.Locator.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorApplicationModule, Solution.Locator.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorCoreModule, Solution.Locator.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.EntityFrameworkCore.LocatorEntityFrameworkModule, Solution.Locator.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:06,835 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-01 08:37:06,949 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:37:06,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:37:06,949 [1    ] o.Configuration.LanguageManagementConfig - Converted Locator (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:37:06,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:37:08,443 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Solution.Locator.EntityFrameworkCore.LocatorDbContext, Solution.Locator.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:37:10,113 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-01 08:37:10,173 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-01 08:37:10,211 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-01 08:37:10,214 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Locator
+DEBUG 2018-05-01 08:37:10,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-01 08:37:10,495 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-01 08:37:10,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-05-01 08:37:10,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-01 08:37:10,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Users.Dto.CreateUserDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Users.Dto.UserDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.PermissionDto
+DEBUG 2018-05-01 08:37:10,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.RoleDto
+DEBUG 2018-05-01 08:37:10,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-01 08:37:10,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-01 08:37:10,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Games.Dto.CreateGameDto
+DEBUG 2018-05-01 08:37:10,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Games.Dto.GameDto
+DEBUG 2018-05-01 08:37:10,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Friend.Dto.CreateFriendDto
+DEBUG 2018-05-01 08:37:10,721 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Friend.Dto.FriendDto
+DEBUG 2018-05-01 08:37:10,721 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-05-01 08:37:20,574 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2018-05-01 08:37:26,313 [5    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-05-01 08:37:26,333 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-05-01 08:37:26,341 [5    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-05-01 08:37:26,362 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-05-01 08:37:26,384 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) in 625.2894ms
+INFO  2018-05-01 08:37:26,408 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6043.7627ms 302 
+INFO  2018-05-01 08:37:26,468 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-05-01 08:37:31,234 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-05-01 08:37:40,618 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-05-01 08:37:42,836 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) in 16299.2817ms
+INFO  2018-05-01 08:37:42,846 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16378.1057ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:37:43,166 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-05-01 08:37:43,184 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2018-05-01 08:37:43,216 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-05-01 08:37:43,229 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2018-05-01 08:37:43,232 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-05-01 08:37:43,263 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2018-05-01 08:37:43,267 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2018-05-01 08:37:43,278 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2018-05-01 08:37:43,282 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2018-05-01 08:37:43,296 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2018-05-01 08:37:43,329 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.2738ms 304 text/css
+INFO  2018-05-01 08:37:43,356 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.2872ms 304 text/css
+INFO  2018-05-01 08:37:43,363 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.2305ms 304 text/css
+INFO  2018-05-01 08:37:43,391 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2018-05-01 08:37:43,446 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.6099ms 304 text/css
+INFO  2018-05-01 08:37:43,466 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2018-05-01 08:37:43,480 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.334ms 304 text/css
+INFO  2018-05-01 08:37:43,492 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2018-05-01 08:37:43,515 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2018-05-01 08:37:43,536 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2018-05-01 08:37:43,543 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2018-05-01 08:37:43,593 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-05-01 08:37:43,596 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.5926ms 304 text/css
+INFO  2018-05-01 08:37:43,607 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2018-05-01 08:37:43,623 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2018-05-01 08:37:43,644 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.2291ms 304 text/css
+INFO  2018-05-01 08:37:43,665 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2018-05-01 08:37:43,679 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.4121ms 304 text/css
+INFO  2018-05-01 08:37:43,682 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=zg_Q133qvg90pLIIwzMXxLLeZAnD9HkrPMgXRmCvZJ8  
+INFO  2018-05-01 08:37:43,711 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.3112ms 304 text/css
+INFO  2018-05-01 08:37:43,719 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2018-05-01 08:37:43,731 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.3966ms 304 text/css
+INFO  2018-05-01 08:37:43,750 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2018-05-01 08:37:43,754 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.css was not modified
+INFO  2018-05-01 08:37:43,770 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2018-05-01 08:37:43,793 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2018-05-01 08:37:43,801 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.5852ms 304 application/javascript
+INFO  2018-05-01 08:37:43,805 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2018-05-01 08:37:43,813 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2018-05-01 08:37:43,837 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2018-05-01 08:37:43,857 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.5599ms 304 text/css
+INFO  2018-05-01 08:37:43,861 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2018-05-01 08:37:43,873 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2018-05-01 08:37:43,883 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.8882ms 304 application/javascript
+INFO  2018-05-01 08:37:43,902 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.4598ms 304 application/javascript
+INFO  2018-05-01 08:37:43,931 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2018-05-01 08:37:43,933 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2018-05-01 08:37:43,939 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2018-05-01 08:37:43,946 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2018-05-01 08:37:43,950 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.7708ms 304 application/javascript
+INFO  2018-05-01 08:37:44,063 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.4959ms 304 application/javascript
+INFO  2018-05-01 08:37:44,116 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2018-05-01 08:37:44,211 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2018-05-01 08:37:44,231 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2018-05-01 08:37:44,236 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2018-05-01 08:37:44,267 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.5716ms 304 application/javascript
+INFO  2018-05-01 08:37:44,274 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2018-05-01 08:37:44,283 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330.6887ms 304 application/javascript
+INFO  2018-05-01 08:37:44,285 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.8542ms 304 application/javascript
+INFO  2018-05-01 08:37:44,311 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2018-05-01 08:37:44,321 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2018-05-01 08:37:44,342 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2018-05-01 08:37:44,344 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2018-05-01 08:37:44,353 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 232.9547ms 304 application/javascript
+INFO  2018-05-01 08:37:44,355 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 292.5158ms 304 application/javascript
+INFO  2018-05-01 08:37:44,359 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2018-05-01 08:37:44,368 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2018-05-01 08:37:44,382 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2018-05-01 08:37:44,408 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2018-05-01 08:37:44,415 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2018-05-01 08:37:44,432 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=EVe7kfOaz9IIbzAxojHn8QU2lv1sAlpN_v_9R5MU9mg  
+INFO  2018-05-01 08:37:44,442 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.6351ms 304 application/javascript
+INFO  2018-05-01 08:37:44,458 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.9007ms 304 application/javascript
+INFO  2018-05-01 08:37:44,468 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2018-05-01 08:37:44,524 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.843ms 304 application/javascript
+INFO  2018-05-01 08:37:44,528 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.0786ms 304 application/javascript
+INFO  2018-05-01 08:37:44,559 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2018-05-01 08:37:44,566 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607606304972330  
+INFO  2018-05-01 08:37:44,579 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=1odIOYHDZm09qVY9-roF6nu-cY43LAhuMsDop43teUQ  
+INFO  2018-05-01 08:37:44,592 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.9323ms 304 application/javascript
+INFO  2018-05-01 08:37:44,600 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2018-05-01 08:37:44,603 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2018-05-01 08:37:44,680 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.2529ms 304 application/javascript
+INFO  2018-05-01 08:37:44,683 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607606304972330  
+INFO  2018-05-01 08:37:44,708 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2018-05-01 08:37:44,747 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2018-05-01 08:37:44,752 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=1kygcGS35g8rdtiyJBUpgKg4aDJrQY4YeJDoJ17PeGA  
+INFO  2018-05-01 08:37:44,897 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2018-05-01 08:37:44,948 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2018-05-01 08:37:44,953 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:37:44,994 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.9916ms 304 application/javascript
+INFO  2018-05-01 08:37:44,996 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 211.4129ms 304 application/javascript
+INFO  2018-05-01 08:37:45,028 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2018-05-01 08:37:45,030 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 351.8721ms 304 application/javascript
+INFO  2018-05-01 08:37:45,066 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:37:45,077 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2018-05-01 08:37:45,094 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2018-05-01 08:37:45,134 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.735ms 304 text/css
+INFO  2018-05-01 08:37:45,137 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.min.js was not modified
+INFO  2018-05-01 08:37:45,266 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.4699ms 304 application/javascript
+WARN  2018-05-01 08:37:45,396 [10   ] ng.AspNetCoreApiDescriptionModelProvider - Controller 'Friend' contains more than one action with name 'GetAll' for module 'app'. Ignored: System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Solution.Locator.Friend.Dto.FriendDto]] GetAll(Abp.Application.Services.Dto.PagedResultRequestDto)
+WARN  2018-05-01 08:37:45,396 [10   ] ng.AspNetCoreApiDescriptionModelProvider - Controller 'Game' contains more than one action with name 'GetAll' for module 'app'. Ignored: System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Solution.Locator.Games.Dto.GameDto]] GetAll(Abp.Application.Services.Dto.PagedResultRequestDto)
+INFO  2018-05-01 08:37:45,498 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2018-05-01 08:37:45,551 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2 was not modified
+INFO  2018-05-01 08:37:45,576 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.6897ms 304 font/woff2
+INFO  2018-05-01 08:37:45,593 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:37:45,599 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2018-05-01 08:37:45,615 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2 was not modified
+INFO  2018-05-01 08:37:45,707 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.0692ms 304 font/woff2
+INFO  2018-05-01 08:37:45,717 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2018-05-01 08:37:45,723 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 892.2572ms
+INFO  2018-05-01 08:37:45,741 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1188.778ms 200 application/x-javascript
+INFO  2018-05-01 08:37:45,765 [12   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:37:45,774 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1051.3852ms
+INFO  2018-05-01 08:37:45,778 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.woff2 was not modified
+INFO  2018-05-01 08:37:45,792 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 195.8767ms 304 font/woff2
+INFO  2018-05-01 08:37:45,795 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1204.446ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:37:54,200 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-05-01 08:37:54,319 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) with arguments (Solution.Locator.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2018-05-01 08:37:55,151 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-05-01 08:37:55,534 [12   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-01 08:37:55,549 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) in 1323.4865ms
+INFO  2018-05-01 08:37:55,563 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1366.4624ms 200 application/json; charset=utf-8
+INFO  2018-05-01 08:37:55,571 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-05-01 08:37:55,605 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:37:55,649 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:37:56,597 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-01 08:37:57,446 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+WARN  2018-05-01 08:37:58,913 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:37:59,665 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) in 3981.2918ms
+INFO  2018-05-01 08:37:59,734 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4107.1098ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:37:59,796 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2018-05-01 08:37:59,809 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2018-05-01 08:37:59,811 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2018-05-01 08:37:59,814 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2018-05-01 08:37:59,822 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.css was not modified
+INFO  2018-05-01 08:37:59,834 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/themes/all-themes.css was not modified
+INFO  2018-05-01 08:37:59,852 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 174.6253ms 304 text/css
+INFO  2018-05-01 08:37:59,868 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2018-05-01 08:37:59,881 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 223.5562ms 304 text/css
+INFO  2018-05-01 08:37:59,894 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/css/bootstrap-select.css was not modified
+INFO  2018-05-01 08:37:59,897 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.5456ms 304 text/css
+INFO  2018-05-01 08:37:59,962 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2018-05-01 08:38:00,150 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/js/bootstrap-select.js was not modified
+INFO  2018-05-01 08:38:00,184 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607606304972330  
+INFO  2018-05-01 08:38:00,300 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 252.7295ms 304 application/javascript
+INFO  2018-05-01 08:38:00,367 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 249.7551ms 304 text/css
+INFO  2018-05-01 08:38:00,379 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2018-05-01 08:38:00,400 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:00,457 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2018-05-01 08:38:00,507 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2018-05-01 08:38:00,526 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/fonts/fontawesome-webfont.woff2 was not modified
+INFO  2018-05-01 08:38:00,563 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:38:00,581 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2018-05-01 08:38:00,680 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 143.1414ms 304 font/woff2
+INFO  2018-05-01 08:38:00,693 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.js was not modified
+INFO  2018-05-01 08:38:00,716 [12   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:38:00,726 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/push.js/push.js was not modified
+INFO  2018-05-01 08:38:00,739 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2018-05-01 08:38:00,748 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-slimscroll/jquery.slimscroll.js was not modified
+INFO  2018-05-01 08:38:00,772 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 312.264ms 304 application/javascript
+INFO  2018-05-01 08:38:00,794 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 310.9901ms
+INFO  2018-05-01 08:38:00,797 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 586.7154ms 304 application/javascript
+INFO  2018-05-01 08:38:00,800 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 752.5652ms 304 application/javascript
+INFO  2018-05-01 08:38:00,805 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user.png was not modified
+INFO  2018-05-01 08:38:00,899 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.3471ms 304 image/png
+INFO  2018-05-01 08:38:00,952 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607606304972330  
+INFO  2018-05-01 08:38:00,965 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=SWq8UPKD6zYvx7OqzMoZg6mBFYCYXfjUts_3rgpNzT8  
+INFO  2018-05-01 08:38:00,975 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 855.5101ms 200 application/x-javascript
+INFO  2018-05-01 08:38:00,983 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2018-05-01 08:38:00,995 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2018-05-01 08:38:01,012 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:01,018 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/raphael/raphael.js was not modified
+INFO  2018-05-01 08:38:01,026 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user-img-background.jpg was not modified
+INFO  2018-05-01 08:38:01,039 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=4QUtu5cEYybLxY00UpGeYV_M4yBce8AlBTJIFQ5bRoY  
+INFO  2018-05-01 08:38:01,052 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.5311ms 304 application/javascript
+INFO  2018-05-01 08:38:01,055 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2018-05-01 08:38:01,082 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.5688ms 304 application/javascript
+INFO  2018-05-01 08:38:01,167 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.0159ms 304 image/jpeg
+INFO  2018-05-01 08:38:01,185 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:38:01,198 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/signalr-client/signalr.min.js was not modified
+INFO  2018-05-01 08:38:01,213 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2018-05-01 08:38:01,227 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-countTo/jquery.countTo.js was not modified
+INFO  2018-05-01 08:38:01,245 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 219.1796ms 304 application/javascript
+INFO  2018-05-01 08:38:01,292 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2018-05-01 08:38:01,296 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.2989ms 304 application/javascript
+INFO  2018-05-01 08:38:01,348 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2018-05-01 08:38:01,356 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.js was not modified
+INFO  2018-05-01 08:38:01,367 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.1111ms 304 application/javascript
+INFO  2018-05-01 08:38:01,371 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2018-05-01 08:38:01,373 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2018-05-01 08:38:01,383 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.resize.js was not modified
+INFO  2018-05-01 08:38:01,399 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2018-05-01 08:38:01,426 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/chart.js/dist/Chart.bundle.js was not modified
+INFO  2018-05-01 08:38:01,431 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.2457ms 304 application/javascript
+INFO  2018-05-01 08:38:01,460 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.js was not modified
+WARN  2018-05-01 08:38:01,462 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:38:01,487 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.pie.js was not modified
+INFO  2018-05-01 08:38:01,497 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 191.8028ms 304 application/javascript
+INFO  2018-05-01 08:38:01,514 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2018-05-01 08:38:01,537 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:38:01,561 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.categories.js was not modified
+INFO  2018-05-01 08:38:01,572 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.6419ms 304 application/javascript
+INFO  2018-05-01 08:38:01,576 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 188.684ms 304 application/javascript
+INFO  2018-05-01 08:38:01,583 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.554ms 304 application/javascript
+INFO  2018-05-01 08:38:01,606 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 521.6966ms
+INFO  2018-05-01 08:38:01,622 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 829.7333ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:38:01,681 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2018-05-01 08:38:01,784 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2018-05-01 08:38:01,826 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-sparkline/dist/jquery.sparkline.js was not modified
+INFO  2018-05-01 08:38:01,844 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2018-05-01 08:38:01,852 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2018-05-01 08:38:01,871 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:38:01,874 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.0102ms 304 application/javascript
+INFO  2018-05-01 08:38:02,108 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.586ms 304 application/javascript
+INFO  2018-05-01 08:38:02,128 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.time.js was not modified
+INFO  2018-05-01 08:38:02,140 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 500.8484ms 304 application/javascript
+INFO  2018-05-01 08:38:02,149 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:02,495 [6    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:38:02,743 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:38:02,817 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"63cfa326-5e77-4159-a42c-be6b35bf8fb2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:38:02.7968099-03:00","Properties":{}}
+DEBUG 2018-05-01 08:38:02,984 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 63cfa326-5e77-4159-a42c-be6b35bf8fb2
+INFO  2018-05-01 08:38:22,124 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2018-05-01 08:38:22,137 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:22,166 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:38:22,413 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+WARN  2018-05-01 08:38:22,911 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:38:23,254 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+WARN  2018-05-01 08:38:23,267 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,268 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,269 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,272 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewRole' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,276 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,277 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Locator'!
+WARN  2018-05-01 08:38:23,308 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:38:23,338 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) in 1184.4404ms
+DEBUG 2018-05-01 08:38:23,453 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 63cfa326-5e77-4159-a42c-be6b35bf8fb2
+INFO  2018-05-01 08:38:23,531 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1361.1257ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:38:23,569 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607606304972330  
+INFO  2018-05-01 08:38:23,576 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=OKM0jzzo9Tl4KLCW8AgedO-ukLR48o1BnH44BLzbkLc  
+INFO  2018-05-01 08:38:23,606 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607606304972330  
+INFO  2018-05-01 08:38:23,622 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:23,654 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'C:\Solution.Locator\3.6.0\aspnet-core\src\Solution.Locator.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2018-05-01 08:38:23,691 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:38:23,786 [4    ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-01 08:38:23,787 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.9772ms 200 application/javascript
+INFO  2018-05-01 08:38:23,877 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+WARN  2018-05-01 08:38:23,889 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:38:23,984 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:38:24,026 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22059.0072ms 101 
+INFO  2018-05-01 08:38:24,043 [33   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:38:24,060 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 420.5465ms
+INFO  2018-05-01 08:38:24,071 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 535.1758ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:38:24,088 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:38:24,278 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 210.2882ms
+INFO  2018-05-01 08:38:24,389 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 761.1902ms 200 application/x-javascript
+INFO  2018-05-01 08:38:24,420 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:38:24,511 [34   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:24,573 [34   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:38:24,610 [34   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:38:24,611 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"72db6e5f-b4d1-43c4-9d20-95876da73295","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:38:24.6114171-03:00","Properties":{}}
+DEBUG 2018-05-01 08:38:24,619 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 72db6e5f-b4d1-43c4-9d20-95876da73295
+INFO  2018-05-01 08:38:28,087 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=2 application/html 0
+INFO  2018-05-01 08:38:28,096 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:38:28,119 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:38:28,129 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (2) - ModelState is Valid
+WARN  2018-05-01 08:38:28,318 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Locator'!
+INFO  2018-05-01 08:38:28,601 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+WARN  2018-05-01 08:38:28,610 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditRole' in localization source 'Locator'!
+WARN  2018-05-01 08:38:28,787 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Locator'!
+WARN  2018-05-01 08:38:28,788 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Locator'!
+INFO  2018-05-01 08:38:28,993 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 881.2806ms
+INFO  2018-05-01 08:38:29,014 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 912.4412ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:38:29,025 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/_EditRoleModal.js?v=J_0QLs2wSHOs_NfIyAGeEAivJKObLLIyaRYxDDfsFTY  
+INFO  2018-05-01 08:38:29,031 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/_EditRoleModal.js'. Physical path: 'C:\Solution.Locator\3.6.0\aspnet-core\src\Solution.Locator.Web.Mvc\wwwroot\view-resources\Views\Roles\_EditRoleModal.js'
+INFO  2018-05-01 08:38:29,112 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.299ms 200 application/javascript
+DEBUG 2018-05-01 08:44:40,247 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-01 08:44:40,408 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-01 08:44:40,438 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.Web.Startup.LocatorWebMvcModule, Solution.Locator.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorWebCoreModule, Solution.Locator.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorApplicationModule, Solution.Locator.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.LocatorCoreModule, Solution.Locator.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Solution.Locator.EntityFrameworkCore.LocatorEntityFrameworkModule, Solution.Locator.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:40,461 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-01 08:44:40,596 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:44:40,596 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:44:40,596 [1    ] o.Configuration.LanguageManagementConfig - Converted Locator (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:44:40,596 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-01 08:44:41,361 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Solution.Locator.EntityFrameworkCore.LocatorDbContext, Solution.Locator.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-01 08:44:43,073 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-01 08:44:43,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-01 08:44:43,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-01 08:44:43,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Locator
+DEBUG 2018-05-01 08:44:43,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-01 08:44:43,599 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-01 08:44:43,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-05-01 08:44:43,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-01 08:44:43,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Users.Dto.CreateUserDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Users.Dto.UserDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.PermissionDto
+DEBUG 2018-05-01 08:44:43,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Roles.Dto.RoleDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Games.Dto.CreateGameDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Games.Dto.GameDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Friend.Dto.CreateFriendDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Friend.Dto.FriendDto
+DEBUG 2018-05-01 08:44:43,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Solution.Locator.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-05-01 08:44:48,473 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2018-05-01 08:44:57,376 [5    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-05-01 08:44:57,426 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-05-01 08:44:57,468 [5    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-05-01 08:44:57,496 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-05-01 08:44:57,514 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) in 997.523ms
+INFO  2018-05-01 08:44:57,570 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9139.5392ms 302 
+INFO  2018-05-01 08:44:57,611 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-05-01 08:45:02,321 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-05-01 08:45:08,272 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-05-01 08:45:10,129 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) in 12145.8527ms
+INFO  2018-05-01 08:45:10,175 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607610836034576  
+INFO  2018-05-01 08:45:10,216 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12571.5798ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:45:10,432 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:45:10,446 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607610836034576  
+INFO  2018-05-01 08:45:10,955 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+WARN  2018-05-01 08:45:11,072 [5    ] ng.AspNetCoreApiDescriptionModelProvider - Controller 'Friend' contains more than one action with name 'GetAll' for module 'app'. Ignored: System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Solution.Locator.Friend.Dto.FriendDto]] GetAll(Abp.Application.Services.Dto.PagedResultRequestDto)
+WARN  2018-05-01 08:45:11,072 [5    ] ng.AspNetCoreApiDescriptionModelProvider - Controller 'Game' contains more than one action with name 'GetAll' for module 'app'. Ignored: System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Solution.Locator.Games.Dto.GameDto]] GetAll(Abp.Application.Services.Dto.PagedResultRequestDto)
+INFO  2018-05-01 08:45:11,221 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:45:11,276 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 994.9027ms
+INFO  2018-05-01 08:45:11,320 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1216.978ms 200 application/x-javascript
+INFO  2018-05-01 08:45:11,456 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:11,513 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 989.7427ms
+INFO  2018-05-01 08:45:11,553 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1385.2928ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:21,114 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-05-01 08:45:21,176 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) with arguments (Solution.Locator.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2018-05-01 08:45:21,948 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-05-01 08:45:22,486 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-01 08:45:22,548 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.AccountController.Login (Solution.Locator.Web.Mvc) in 1387.9507ms
+INFO  2018-05-01 08:45:22,592 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1441.4297ms 200 application/json; charset=utf-8
+INFO  2018-05-01 08:45:22,604 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-05-01 08:45:22,645 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:22,694 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:45:23,836 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-01 08:45:24,532 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2018-05-01 08:45:26,805 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.HomeController.Index (Solution.Locator.Web.Mvc) in 4026.1091ms
+INFO  2018-05-01 08:45:26,892 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4214.5861ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:45:27,094 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607610836034576  
+INFO  2018-05-01 08:45:27,112 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607610836034576  
+INFO  2018-05-01 08:45:27,135 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:27,170 [23   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:27,183 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:45:27,194 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:45:27,332 [23   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:45:27,610 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 160.9472ms
+INFO  2018-05-01 08:45:27,656 [21   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:27,666 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 830.0245ms 200 application/x-javascript
+INFO  2018-05-01 08:45:27,866 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 520.228ms
+INFO  2018-05-01 08:45:27,896 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:45:27,915 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 995.2316ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:27,936 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:28,490 [5    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:45:28,690 [23   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:45:28,759 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"3c31a029-fc61-40fd-ab00-3cea56339473","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:45:28.7403989-03:00","Properties":{}}
+DEBUG 2018-05-01 08:45:28,855 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 3c31a029-fc61-40fd-ab00-3cea56339473
+INFO  2018-05-01 08:45:31,295 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2018-05-01 08:45:31,326 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:31,366 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:45:31,686 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-01 08:45:32,463 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2018-05-01 08:45:32,849 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) in 1277.2871ms
+DEBUG 2018-05-01 08:45:33,004 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 3c31a029-fc61-40fd-ab00-3cea56339473
+INFO  2018-05-01 08:45:33,106 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607610836034576  
+INFO  2018-05-01 08:45:33,164 [21   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-01 08:45:33,170 [23   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:33,217 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1596.3098ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:45:33,283 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607610836034576  
+INFO  2018-05-01 08:45:33,306 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:45:33,321 [23   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:45:33,526 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:33,535 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 104.5002ms
+INFO  2018-05-01 08:45:33,551 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5575.3073ms 101 
+INFO  2018-05-01 08:45:33,869 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 706.1361ms 200 application/x-javascript
+INFO  2018-05-01 08:45:33,991 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:45:34,566 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:34,747 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1036.3518ms
+INFO  2018-05-01 08:45:34,852 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1909.1423ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:45:34,874 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:45:34,904 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:34,951 [10   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:45:34,974 [10   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:45:34,975 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"1eb7c5a1-cc48-4cf3-933e-be3c40bed064","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:45:34.9752606-03:00","Properties":{}}
+DEBUG 2018-05-01 08:45:34,991 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 1eb7c5a1-cc48-4cf3-933e-be3c40bed064
+INFO  2018-05-01 08:45:53,329 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=2 application/html 0
+INFO  2018-05-01 08:45:53,339 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:45:53,364 [19   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:45:53,376 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (2) - ModelState is Valid
+INFO  2018-05-01 08:45:53,754 [19   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+WARN  2018-05-01 08:45:53,980 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Locator'!
+WARN  2018-05-01 08:45:53,983 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Locator'!
+INFO  2018-05-01 08:45:54,148 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 792.3461ms
+INFO  2018-05-01 08:45:54,191 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 829.9484ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:18,577 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=2 application/html 0
+INFO  2018-05-01 08:47:18,594 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:18,611 [23   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:18,624 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (2) - ModelState is Valid
+INFO  2018-05-01 08:47:19,048 [35   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+INFO  2018-05-01 08:47:19,091 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 477.9822ms
+INFO  2018-05-01 08:47:19,140 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 549.524ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:25,037 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:62114/api/services/app/Role/Update application/json 165
+INFO  2018-05-01 08:47:25,048 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:25,319 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Roles.RoleAppService.Update (Solution.Locator.Application) with arguments (Solution.Locator.Roles.Dto.RoleDto) - ModelState is Valid
+INFO  2018-05-01 08:47:25,619 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-01 08:47:25,638 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Roles.RoleAppService.Update (Solution.Locator.Application) in 569.8534ms
+INFO  2018-05-01 08:47:25,650 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 607.1795ms 200 application/json; charset=utf-8
+INFO  2018-05-01 08:47:25,685 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2018-05-01 08:47:25,738 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:25,770 [23   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:25,787 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-01 08:47:26,253 [36   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+DEBUG 2018-05-01 08:47:26,395 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 1eb7c5a1-cc48-4cf3-933e-be3c40bed064
+INFO  2018-05-01 08:47:26,414 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) in 602.1276ms
+INFO  2018-05-01 08:47:26,468 [39   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-01 08:47:26,472 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607610836034576  
+INFO  2018-05-01 08:47:26,487 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 750.3731ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:26,500 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:26,515 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111662.8306ms 101 
+INFO  2018-05-01 08:47:26,533 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607610836034576  
+INFO  2018-05-01 08:47:26,538 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:47:26,547 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:47:26,564 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:26,581 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:47:26,605 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 40.0686ms
+INFO  2018-05-01 08:47:26,668 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.0773ms 200 application/x-javascript
+INFO  2018-05-01 08:47:26,698 [21   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:47:26,872 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 133.1689ms
+INFO  2018-05-01 08:47:26,921 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 381.7395ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:47:26,947 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:47:26,961 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:26,968 [30   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:47:27,017 [21   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:47:27,018 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"41cf09d7-c331-4739-9818-0a4f2735ed12","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:47:27.017988-03:00","Properties":{}}
+DEBUG 2018-05-01 08:47:27,018 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 41cf09d7-c331-4739-9818-0a4f2735ed12
+INFO  2018-05-01 08:47:29,931 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=2 application/html 0
+INFO  2018-05-01 08:47:29,957 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:29,998 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:30,017 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (2) - ModelState is Valid
+INFO  2018-05-01 08:47:30,162 [21   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+INFO  2018-05-01 08:47:30,170 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 204.7445ms
+INFO  2018-05-01 08:47:30,185 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 252.1803ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:39,512 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Role/Create application/json 162
+INFO  2018-05-01 08:47:39,526 [23   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:39,577 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Roles.RoleAppService.Create (Solution.Locator.Application) with arguments (Solution.Locator.Roles.Dto.CreateRoleDto) - ModelState is Valid
+INFO  2018-05-01 08:47:45,193 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-01 08:47:45,200 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Roles.RoleAppService.Create (Solution.Locator.Application) in 5654.1697ms
+INFO  2018-05-01 08:47:45,209 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5698.9528ms 200 application/json; charset=utf-8
+INFO  2018-05-01 08:47:45,234 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2018-05-01 08:47:45,248 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:45,266 [23   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:45,278 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-01 08:47:45,396 [39   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+DEBUG 2018-05-01 08:47:45,545 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 41cf09d7-c331-4739-9818-0a4f2735ed12
+INFO  2018-05-01 08:47:45,567 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.Index (Solution.Locator.Web.Mvc) in 227.0753ms
+INFO  2018-05-01 08:47:45,624 [39   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-01 08:47:45,640 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636607610836034576  
+INFO  2018-05-01 08:47:45,660 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 380.0335ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:45,673 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18694.0643ms 101 
+INFO  2018-05-01 08:47:45,682 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:45,690 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636607610836034576  
+INFO  2018-05-01 08:47:45,700 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-01 08:47:45,737 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-01 08:47:45,791 [23   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:45,793 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 50.8266ms
+INFO  2018-05-01 08:47:45,801 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 191.4842ms 200 application/x-javascript
+INFO  2018-05-01 08:47:45,829 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-01 08:47:45,910 [39   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:47:45,919 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 116.185ms
+INFO  2018-05-01 08:47:45,931 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.2367ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-01 08:47:46,009 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-05-01 08:47:46,026 [23   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:46,060 [23   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-01 08:47:46,082 [39   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-01 08:47:46,083 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"1b5182c5-3cf5-4044-b35c-ad2944f4c90f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-01T08:47:46.0834387-03:00","Properties":{}}
+DEBUG 2018-05-01 08:47:46,083 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 1b5182c5-3cf5-4044-b35c-ad2944f4c90f
+INFO  2018-05-01 08:47:49,481 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=3 application/html 0
+INFO  2018-05-01 08:47:49,494 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:49,509 [39   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:49,516 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (3) - ModelState is Valid
+INFO  2018-05-01 08:47:49,595 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+INFO  2018-05-01 08:47:49,605 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 101.7757ms
+INFO  2018-05-01 08:47:49,614 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.5529ms 200 text/html; charset=utf-8
+INFO  2018-05-01 08:47:53,290 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditRoleModal?roleId=2 application/html 0
+INFO  2018-05-01 08:47:53,307 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-01 08:47:53,322 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-01 08:47:53,328 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) with arguments (2) - ModelState is Valid
+INFO  2018-05-01 08:47:53,394 [30   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/_EditRoleModal.cshtml.
+INFO  2018-05-01 08:47:53,412 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Solution.Locator.Web.Controllers.RolesController.EditRoleModal (Solution.Locator.Web.Mvc) in 93.471ms
+INFO  2018-05-01 08:47:53,502 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.5109ms 200 text/html; charset=utf-8
+DEBUG 2018-05-01 08:50:21,720 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 1b5182c5-3cf5-4044-b35c-ad2944f4c90f
+INFO  2018-05-01 08:50:21,781 [40   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-01 08:50:21,785 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155786.308ms 101 

@@ -15,7 +15,7 @@ using Solution.Locator.Web.Models.Games;
 
 namespace Solution.Locator.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Pages_Roles)]
     public class GamesController : LocatorControllerBase
     {
         private readonly IGameAppService _gameAppService;

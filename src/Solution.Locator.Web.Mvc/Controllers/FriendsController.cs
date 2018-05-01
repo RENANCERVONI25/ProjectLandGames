@@ -10,7 +10,7 @@ using Solution.Locator.Games;
 
 namespace Solution.Locator.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Pages_Roles)]
     public class FriendsController : LocatorControllerBase
     {
         private readonly IFriendAppService _friendAppService;
