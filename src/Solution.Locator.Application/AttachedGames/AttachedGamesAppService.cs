@@ -32,8 +32,8 @@ namespace Solution.Locator.AttachedGames
             if (friendEntity.Games != null && friendEntity.Games.Any())
                 friendEntity.Games.Clear();
 
-            input.Games.ForEach(x =>{
-                SetGames(input, friendEntity, x);
+            input.Games.ForEach(idGame =>{
+                SetGames(input, friendEntity, idGame);
             });
 
             //foreach (var game in input.Games)
